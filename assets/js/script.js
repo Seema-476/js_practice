@@ -36,9 +36,9 @@ console.log(year);
 
 // ternary operator
 let b = 30;
-let c = 40;
-(b>c? c="yes":"no")
-document.getElementById("demo").innerHTML = "value" +"=" +(b > c ? "" : "");
+let c = 20;
+(b>=c? c="yes":"no")
+document.getElementById("demo").innerHTML = "value" +"=" +(b > c ? "yes" : "no");
 
 
 
